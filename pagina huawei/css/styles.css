@@ -11551,6 +11551,8 @@ main {
 .icon:hover {
     background-color: #e60073;
     box-shadow:  0 0 20px #e60073 ;
+
+
 }
 
 .icon:hover:nth-child(2) {
@@ -11586,11 +11588,12 @@ svg circle {
     stroke-dasharray: 220;
 }
 img.img-fluidd{
-  width: 80px;
-  height: 80px;
+  width: 55px;
+  height: 55px;
   color: transparent;
   opacity: 50%;
 }
   
 
 }
+
