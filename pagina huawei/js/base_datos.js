@@ -6,8 +6,8 @@ fetch(url).then(function(response){
 	return response.json();
 }).then(function(datos){
 	console.log(datos);
-	for (let i = 0; i <datos.length; i++)
+	for (let i = 1; i <datos.length; i++)
 
-        contenedor.innerHTML += "<div>" + datos[i]["info"] + "</div>";
+        contenedor.innerHTML += "<div class='portfolio'><p class='info'>" + datos[i]["infoo"] + "</p></div> ";
 	
 })
